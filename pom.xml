@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>leetcode</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>leetcode2104_子数组的范围和</module>
+        <module>leetcode504_七进制数</module>
+        <module>leetcode789_得分最高的最小轮调</module>
+        <module>contest</module>
+        <module>leetcode_590</module>
+        <module>leetcode857_雇佣 K 名工人的最低成本</module>
+        <module>leetcode1608_特殊数组的特征值</module>
+        <module>leetcode670_最大交换</module>
+        <module>leetcode1619_删除某些元素后的数组均值</module>
+        <module>leetcode1909_删除一个元素使数组严格递增</module>
+        <module>leetcode_1910删除一个字符串中所有出现的给定子字符串</module>
+        <module>leetcode1911_最大子序列交替和</module>
+        <module>leetcode1624_两个相同字符之间的最长子字符串</module>
+        <module>leetcode695_最大的岛屿面积</module>
+        <module>leetcode827_最大人工岛</module>
+        <module>leetcode1636_按照频率将数组升序排序</module>
+        <module>leetcode1640_能否连接形成数组</module>
+        <module>leetcode707_设计链表</module>
+        <module>leetcode_气温变化趋势</module>
+        <module>面试题 01.08. 零矩阵</module>
+        <module>leetcode870_优势洗牌</module>
+        <module>leetcode801_使序列递增的最小交换次数</module>
+        <module>leetcode1790_仅执行一次字符串交换能否使两个字符串相等</module>
+        <module>leetcode817_链表组件</module>
+        <module>leetcode769_最多能完成排序的块</module>
+        <module>leetcode904_水果成篮</module>
+        <module>leetcode1700_无法吃午餐的学生数量</module>
+        <module>leetcode915_ 分割数组</module>
+        <module>leetcode481_神奇字符串</module>
+        <module>leetcode1620_ 网络信号最好的坐标</module>
+        <module>leetcode1684_统计一致字符串的数目</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>
