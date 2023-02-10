@@ -40,6 +40,7 @@
         <module>leetcode481_神奇字符串</module>
         <module>leetcode1620_ 网络信号最好的坐标</module>
         <module>leetcode1684_统计一致字符串的数目</module>
+        <module>leetcode0210</module>
     </modules>
 
     <properties>

@@ -29,6 +29,7 @@
         <module name="leetcode1909_删除一个元素使数组严格递增" />
         <module name="leetcode870_优势洗牌" />
         <module name="leetcode801_使序列递增的最小交换次数" />
+        <module name="leetcode0210" />
         <module name="leetcode504_七进制数" />
         <module name="leetcode827_最大人工岛" />
         <module name="leetcode2104_子数组的范围和" />
