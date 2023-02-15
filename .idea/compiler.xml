@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="leetcode2104" />
         <module name="leetcode_气温变化趋势" />
+        <module name="BinaryTree" />
         <module name="leetcode817_链表组件" />
         <module name="leetcode1640_能否连接形成数组" />
         <module name="leetcode707_设计链表" />
