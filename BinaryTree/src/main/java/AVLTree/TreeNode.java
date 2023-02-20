@@ -129,4 +129,34 @@ public class TreeNode {
 
         return 1;
     }
+
+    /**
+     * 找到这颗树的最小值
+     * @return
+     */
+    public int selectMin(){
+        if(this.leftNode==null&&this.rightNode==null){
+            return this.val;
+        }
+        else if(this.leftNode!=null){
+            return this.leftNode.selectMin();
+        }
+        else {
+            return this.rightNode.selectMin();
+        }
+    }
+
+    /**
+     * 找到指定值的父节点
+     * @return 父节点
+     */
+    public TreeNode selectParent(int num){
+        if(this.rightNode.val==num||this.leftNode.val==num){
+            return this;
+        }
+        else {
+
+        }
+        return null;
+    }
 }
