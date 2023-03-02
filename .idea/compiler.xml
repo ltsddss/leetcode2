@@ -20,6 +20,7 @@
         <module name="leetcode1636_按照频率将数组升序排序" />
         <module name="leetcode1684_统计一致字符串的数目" />
         <module name="leetcode1619_删除某些元素后的数组均值" />
+        <module name="utils" />
         <module name="leetcode1911_最大子序列交替和" />
         <module name="leetcode504" />
         <module name="leetcode789" />

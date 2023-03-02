@@ -42,6 +42,7 @@
         <module>leetcode1684_统计一致字符串的数目</module>
         <module>leetcode0210</module>
         <module>BinaryTree</module>
+        <module>utils</module>
     </modules>
 
     <properties>
