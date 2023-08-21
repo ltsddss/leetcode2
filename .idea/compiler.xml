@@ -33,6 +33,7 @@
         <module name="leetcode481_神奇字符串" />
         <module name="leetcode1619_" />
         <module name="leetcode789_得分最高的最小轮调" />
+        <module name="leetcode202308" />
         <module name="面试题 01.08. 零矩阵" />
         <module name="leetcode_1910删除一个字符串中所有出现的给定子字符串" />
         <module name="leetcode1790_仅执行一次字符串交换能否使两个字符串相等" />

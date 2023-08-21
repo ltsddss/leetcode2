@@ -43,6 +43,7 @@
         <module>leetcode0210</module>
         <module>BinaryTree</module>
         <module>utils</module>
+        <module>leetcode202308</module>
     </modules>
 
     <properties>
