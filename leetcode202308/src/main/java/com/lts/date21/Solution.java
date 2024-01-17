@@ -55,9 +55,58 @@ public class Solution {
         return list;
     }
 
+//    #######################分隔符###############################
+
+    //2454. 下一个更大元素 IV TODO: 应该用单调栈解法，本题超时
+    public int[] secondGreaterElement(int[] nums) {
+        int[] result=new int[nums.length];
+        for (int i = 0; i < result.length; i++) {
+            result[i]=getNextBig(nums,nums[i],i);
+        }
+        return result;
+    }
+    public int getNextBig(int[] nums,int number,int index){
+        int temp =0;
+        for (int i = index+1; i < nums.length; i++) {
+            if(nums[i]>number){
+                temp++;
+                if(temp>=2){
+                    return nums[i];
+                }
+            }
+        }
+        return -1;
+    }
+
+    //2483. 商店的最少代价
+    public int bestClosingTime(String customers) {
+//        从第0小时开始维护一个成本数组
+        int cost=0;
+        int result=customers.length();
+        for (int i = 0; i < customers.length(); i++) {
+            if(customers.charAt(i)=='Y'){
+                cost++;
+            }
+        }
+        int min=cost;
+        result=0;
+        for (int i = 0; i < customers.length(); i++) {
+            if(customers.charAt(i)=='Y'){
+                cost--;
+            }else {
+                cost++;
+            }
+            if(min>cost){
+                min=cost;
+                result=i;
+            }
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         Solution s=new Solution();
 
-        System.out.println(s.canChange("_LL__R__R_", "L___L___RR"));
+        System.out.println(s.bestClosingTime("NNNNNY"));
     }
 }

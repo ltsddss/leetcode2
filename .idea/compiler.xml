@@ -15,10 +15,12 @@
         <module name="leetcode904_" />
         <module name="leetcode_" />
         <module name="leetcode695_最大的岛屿面积" />
+        <module name="leetcode202312" />
         <module name="leetcode904_水果成篮" />
         <module name="leetcode1684_统计一致字符串的数目" />
         <module name="leetcode1909_" />
         <module name="utils" />
+        <module name="leetcode202310" />
         <module name="leetcode1608" />
         <module name="leetcode504" />
         <module name="leetcode789" />
@@ -33,6 +35,7 @@
         <module name="leetcode481_神奇字符串" />
         <module name="leetcode1619_" />
         <module name="leetcode789_得分最高的最小轮调" />
+        <module name="leetcode202309" />
         <module name="leetcode202308" />
         <module name="面试题 01.08. 零矩阵" />
         <module name="leetcode_1910删除一个字符串中所有出现的给定子字符串" />
@@ -66,6 +69,7 @@
         <module name="leetcode1911_" />
         <module name="leetcode2104_子数组的范围和" />
         <module name="leetcode857_雇佣 K 名工人的最低成本" />
+        <module name="leetcode202401" />
         <module name="leetcode915_ 分割数组" />
         <module name="leetcode857" />
         <module name="leetcode1624_两个相同字符之间的最长子字符串" />
