@@ -74,6 +74,8 @@
         <module name="leetcode857" />
         <module name="leetcode1624_两个相同字符之间的最长子字符串" />
         <module name="leetcode481_" />
+        <module name="leetcode202404" />
+        <module name="leetcode202403" />
         <module name="leetcode695_" />
       </profile>
     </annotationProcessing>

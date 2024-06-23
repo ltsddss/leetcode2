@@ -48,6 +48,8 @@
         <module>leetcode202310</module>
         <module>leetcode202312</module>
         <module>leetcode202401</module>
+        <module>leetcode202403</module>
+        <module>leetcode202404</module>
     </modules>
 
     <properties>
